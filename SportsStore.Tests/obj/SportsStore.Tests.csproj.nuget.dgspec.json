@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore.Tests\\SportsStore.Tests.csproj": {}
+    "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore.Tests\\SportsStore.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore.Tests\\SportsStore.Tests.csproj": {
+    "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore.Tests\\SportsStore.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore.Tests\\SportsStore.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore.Tests\\SportsStore.Tests.csproj",
         "projectName": "SportsStore.Tests",
-        "projectPath": "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore.Tests\\SportsStore.Tests.csproj",
+        "projectPath": "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore.Tests\\SportsStore.Tests.csproj",
         "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore.Tests\\obj\\",
+        "outputPath": "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\makar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore\\SportsStore.csproj": {
-                "projectPath": "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore\\SportsStore.csproj"
+              "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore\\SportsStore.csproj": {
+                "projectPath": "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore\\SportsStore.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore\\SportsStore.csproj": {
+    "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore\\SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore\\SportsStore.csproj",
+        "projectUniqueName": "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore\\SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore\\SportsStore.csproj",
+        "projectPath": "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore\\SportsStore.csproj",
         "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\makar\\RiderProjects\\SportsStore\\SportsStore\\obj\\",
+        "outputPath": "C:\\Users\\makar\\Documents\\GitHub\\SportsStore\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\makar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -127,6 +127,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

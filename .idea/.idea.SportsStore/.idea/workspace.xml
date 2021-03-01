@@ -5,16 +5,162 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84637de2-3b74-476d-ad00-94e2f4b88f08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Migrations/StoreDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Migrations/StoreDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Models/EFStoreRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Models/EFStoreRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Models/IStoreRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Models/IStoreRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Models/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Models/Order.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsStore/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SportsStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore.Tests/obj/SportsStore.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore.Tests/obj/SportsStore.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/Pages/Admin/AdminLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Pages/Admin/AdminLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/Pages/Admin/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Pages/Admin/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/SportsStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/SportsStore.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportsStore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/Views/Shared/Components/CartSummary/Default.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/Views/Shared/Components/CartSummary/Default.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/obj/SportsStore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/SportsStore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SportsStore/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/brands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/brands.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/conflict-detection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/conflict-detection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/fontawesome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/fontawesome.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/regular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/regular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/solid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/solid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/v4-shims.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/js/v4-shims.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/sprites/brands.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/sprites/regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/font-awesome/sprites/solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_interactions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportsStore/wwwroot/lib/twitter-bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +183,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/SportsStore/Models/ViewModels/PagingInfo.cs" />
-      <option value="$PROJECT_DIR$/SportsStore/Models/ViewModels/ProductsListViewModel.cs" />
-      <option value="$PROJECT_DIR$/SportsStore/Infrastructure/PageLinkTagHelper.cs" />
-      <option value="$PROJECT_DIR$/SportsStore/Views/Home/Index.cshtml" />
-      <option value="$PROJECT_DIR$/SportsStore/appsettings.json" />
-      <option value="$PROJECT_DIR$/SportsStore.Tests/Pages/Components/NavigationMenu/Default.cshtml" />
-      <option value="$PROJECT_DIR$/SportsStore/Views/Shared/Components/Default.cshtml" />
-      <option value="$PROJECT_DIR$/SportsStore/Components/NavigationMenuViewComponent.cs" />
-      <option value="$PROJECT_DIR$/SportsStore.Tests/NavigationMenuViewComponentTests.cs" />
-      <option value="$PROJECT_DIR$/SportsStore/Views/Shared/Components/NavigationMenu/Default.cshtml" />
-      <option value="$PROJECT_DIR$/SportsStore/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/SportsStore.Tests/HomeControllerTests.cs" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/_ViewImports.cshtml" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/_ViewStart.cshtml" />
@@ -73,12 +208,9 @@
       <option value="$PROJECT_DIR$/SportsStore.Tests/OrderControllerTests.cs" />
       <option value="$PROJECT_DIR$/SportsStore/Views/Order/Checkout.cshtml" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/Completed.cshtml" />
-      <option value="$PROJECT_DIR$/SportsStore/Startup.cs" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/_Improts.razor" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/_Imports.razor" />
-      <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/Index.cshtml" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/Routed.razor" />
-      <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/AdminLayout.razor" />
       <option value="$PROJECT_DIR$/SportsStore/Models/Order.cs" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/OrderTable.razor" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/Orders.razor" />
@@ -88,6 +220,20 @@
       <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/Details.razor" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/Editor.razor" />
       <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/Products.razor" />
+      <option value="$PROJECT_DIR$/SportsStore/Models/AppIdentityDbContext.cs" />
+      <option value="$PROJECT_DIR$/SportsStore/appsettings.json" />
+      <option value="$PROJECT_DIR$/SportsStore/Models/IdentitySeedData.cs" />
+      <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/IdentityUsers.cshtml" />
+      <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/Index.cshtml" />
+      <option value="$PROJECT_DIR$/SportsStore/Models/ViewModels/LoginModel.cs" />
+      <option value="$PROJECT_DIR$/SportsStore/Controllers/AccountController.cs" />
+      <option value="$PROJECT_DIR$/SportsStore/Views/Account/Login.cshtml" />
+      <option value="$PROJECT_DIR$/SportsStore/Pages/Admin/AdminLayout.razor" />
+      <option value="$PROJECT_DIR$/SportsStore/Pages/Error.cshtml" />
+      <option value="$PROJECT_DIR$/SportsStore/Startup.cs" />
+      <option value="$PROJECT_DIR$/SportsStore/appsettings.Production.json" />
+      <option value="$PROJECT_DIR$/SportsStore/Dockerfile" />
+      <option value="$PROJECT_DIR$/SportsStore/docker-compose.yml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p00qkvxNNTgkOIw48mAq59v7zy" />
@@ -99,6 +245,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35005066" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -136,6 +284,10 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.SportsStore" />
+      <item itemvalue=".NET Launch Settings Profile.SportsStore: IIS Express" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -153,6 +305,10 @@
       <workItem from="1614539675819" duration="23613000" />
       <workItem from="1614604555994" duration="12778000" />
       <workItem from="1614631449557" duration="1404000" />
+      <workItem from="1614633231831" duration="6040000" />
+      <workItem from="1614639601938" duration="1535000" />
+      <workItem from="1614641436793" duration="21000" />
+      <workItem from="1614641996411" duration="446000" />
     </task>
     <servers />
   </component>

@@ -10,8 +10,8 @@
     <e p="C:\Users\makar\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="C:\Users\makar\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="C:\Users\makar\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\makar\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_SportsStore.-23704499.00" t="ExcludeRecursive" />
-    <e p="C:\Users\makar\RiderProjects\SportsStore" t="IncludeFlat">
+    <e p="C:\Users\makar\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_SportsStore.471819284.00" t="ExcludeRecursive" />
+    <e p="C:\Users\makar\Documents\GitHub\SportsStore" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="SportsStore" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -22,6 +22,7 @@
           <e p="NavigationMenuViewComponent.cs" t="Include" />
         </e>
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="OrderController.cs" t="Include" />
         </e>
@@ -38,12 +39,19 @@
           <e p="20210301005733_Orders.Designer.cs" t="Include" />
           <e p="20210301155351_ShippedOrders.cs" t="Include" />
           <e p="20210301155351_ShippedOrders.Designer.cs" t="Include" />
+          <e p="AppIdentityDb" t="Include">
+            <e p="20210301213345_Initial.cs" t="Include" />
+            <e p="20210301213345_Initial.Designer.cs" t="Include" />
+            <e p="AppIdentityDbContextModelSnapshot.cs" t="Include" />
+          </e>
           <e p="StoreDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="AppIdentityDbContext.cs" t="Include" />
           <e p="Cart.cs" t="Include" />
           <e p="EFOrderRepository.cs" t="Include" />
           <e p="EFStoreRepository.cs" t="Include" />
+          <e p="IdentitySeedData.cs" t="Include" />
           <e p="IOrderRepository.cs" t="Include" />
           <e p="IStoreRepository.cs" t="Include" />
           <e p="Order.cs" t="Include" />
@@ -52,6 +60,7 @@
           <e p="SessionCart.cs" t="Include" />
           <e p="StoreDbContext.cs" t="Include" />
           <e p="ViewModels" t="Include">
+            <e p="LoginModel.cs" t="Include" />
             <e p="PagingInfo.cs" t="Include" />
             <e p="ProductsListViewModel.cs" t="Include" />
           </e>
@@ -73,6 +82,7 @@
             <e p="AdminLayout.razor" t="Include" />
             <e p="Details.razor" t="Include" />
             <e p="Editor.razor" t="Include" />
+            <e p="IdentityUsers.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Orders.razor" t="Include" />
             <e p="OrderTable.razor" t="Include" />
@@ -83,6 +93,7 @@
           <e p="Cart.cshtml.cs" t="Include" />
           <e p="Completed.cshtml" t="Include" />
           <e p="Completed.cshtml.cs" t="Include" />
+          <e p="Error.cshtml" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -93,6 +104,9 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Login.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
@@ -115,43 +129,7 @@
         <e p="wwwroot" t="Include">
           <e p="lib" t="Include">
             <e p="font-awesome" t="Include">
-              <e p="css" t="Include">
-                <e p="all.css" t="Include" />
-                <e p="all.min.css" t="Include" />
-                <e p="brands.css" t="Include" />
-                <e p="brands.min.css" t="Include" />
-                <e p="fontawesome.css" t="Include" />
-                <e p="fontawesome.min.css" t="Include" />
-                <e p="regular.css" t="Include" />
-                <e p="regular.min.css" t="Include" />
-                <e p="solid.css" t="Include" />
-                <e p="solid.min.css" t="Include" />
-                <e p="svg-with-js.css" t="Include" />
-                <e p="svg-with-js.min.css" t="Include" />
-                <e p="v4-shims.css" t="Include" />
-                <e p="v4-shims.min.css" t="Include" />
-              </e>
-              <e p="js" t="Include">
-                <e p="all.js" t="Include" />
-                <e p="all.min.js" t="Include" />
-                <e p="brands.js" t="Include" />
-                <e p="brands.min.js" t="Include" />
-                <e p="conflict-detection.js" t="Include" />
-                <e p="conflict-detection.min.js" t="Include" />
-                <e p="fontawesome.js" t="Include" />
-                <e p="fontawesome.min.js" t="Include" />
-                <e p="regular.js" t="Include" />
-                <e p="regular.min.js" t="Include" />
-                <e p="solid.js" t="Include" />
-                <e p="solid.min.js" t="Include" />
-                <e p="v4-shims.js" t="Include" />
-                <e p="v4-shims.min.js" t="Include" />
-              </e>
-              <e p="sprites" t="Include">
-                <e p="brands.svg" t="Include" />
-                <e p="regular.svg" t="Include" />
-                <e p="solid.svg" t="Include" />
-              </e>
+              <e p="css" t="Include" />
               <e p="webfonts" t="Include">
                 <e p="fa-brands-400.eot" t="Include" />
                 <e p="fa-brands-400.svg" t="Include" />
@@ -171,128 +149,7 @@
               </e>
             </e>
             <e p="twitter-bootstrap" t="Include">
-              <e p="css" t="Include">
-                <e p="bootstrap-grid.css" t="Include" />
-                <e p="bootstrap-grid.css.map" t="Include" />
-                <e p="bootstrap-grid.min.css" t="Include" />
-                <e p="bootstrap-grid.min.css.map" t="Include" />
-                <e p="bootstrap-reboot.css" t="Include" />
-                <e p="bootstrap-reboot.css.map" t="Include" />
-                <e p="bootstrap-reboot.min.css" t="Include" />
-                <e p="bootstrap-reboot.min.css.map" t="Include" />
-                <e p="bootstrap.css" t="Include" />
-                <e p="bootstrap.css.map" t="Include" />
-                <e p="bootstrap.min.css" t="Include" />
-                <e p="bootstrap.min.css.map" t="Include" />
-              </e>
-              <e p="js" t="Include">
-                <e p="bootstrap.bundle.js" t="Include" />
-                <e p="bootstrap.bundle.js.map" t="Include" />
-                <e p="bootstrap.bundle.min.js" t="Include" />
-                <e p="bootstrap.bundle.min.js.map" t="Include" />
-                <e p="bootstrap.js" t="Include" />
-                <e p="bootstrap.js.map" t="Include" />
-                <e p="bootstrap.min.js" t="Include" />
-                <e p="bootstrap.min.js.map" t="Include" />
-              </e>
-              <e p="scss" t="Include">
-                <e p="_alert.scss" t="Include" />
-                <e p="_badge.scss" t="Include" />
-                <e p="_breadcrumb.scss" t="Include" />
-                <e p="_button-group.scss" t="Include" />
-                <e p="_buttons.scss" t="Include" />
-                <e p="_card.scss" t="Include" />
-                <e p="_carousel.scss" t="Include" />
-                <e p="_close.scss" t="Include" />
-                <e p="_code.scss" t="Include" />
-                <e p="_custom-forms.scss" t="Include" />
-                <e p="_dropdown.scss" t="Include" />
-                <e p="_forms.scss" t="Include" />
-                <e p="_functions.scss" t="Include" />
-                <e p="_grid.scss" t="Include" />
-                <e p="_images.scss" t="Include" />
-                <e p="_input-group.scss" t="Include" />
-                <e p="_jumbotron.scss" t="Include" />
-                <e p="_list-group.scss" t="Include" />
-                <e p="_media.scss" t="Include" />
-                <e p="_mixins.scss" t="Include" />
-                <e p="_modal.scss" t="Include" />
-                <e p="_nav.scss" t="Include" />
-                <e p="_navbar.scss" t="Include" />
-                <e p="_pagination.scss" t="Include" />
-                <e p="_popover.scss" t="Include" />
-                <e p="_print.scss" t="Include" />
-                <e p="_progress.scss" t="Include" />
-                <e p="_reboot.scss" t="Include" />
-                <e p="_root.scss" t="Include" />
-                <e p="_spinners.scss" t="Include" />
-                <e p="_tables.scss" t="Include" />
-                <e p="_toasts.scss" t="Include" />
-                <e p="_tooltip.scss" t="Include" />
-                <e p="_transitions.scss" t="Include" />
-                <e p="_type.scss" t="Include" />
-                <e p="_utilities.scss" t="Include" />
-                <e p="_variables.scss" t="Include" />
-                <e p="bootstrap-grid.scss" t="Include" />
-                <e p="bootstrap-reboot.scss" t="Include" />
-                <e p="bootstrap.scss" t="Include" />
-                <e p="mixins" t="Include">
-                  <e p="_alert.scss" t="Include" />
-                  <e p="_background-variant.scss" t="Include" />
-                  <e p="_badge.scss" t="Include" />
-                  <e p="_border-radius.scss" t="Include" />
-                  <e p="_box-shadow.scss" t="Include" />
-                  <e p="_breakpoints.scss" t="Include" />
-                  <e p="_buttons.scss" t="Include" />
-                  <e p="_caret.scss" t="Include" />
-                  <e p="_clearfix.scss" t="Include" />
-                  <e p="_deprecate.scss" t="Include" />
-                  <e p="_float.scss" t="Include" />
-                  <e p="_forms.scss" t="Include" />
-                  <e p="_gradients.scss" t="Include" />
-                  <e p="_grid-framework.scss" t="Include" />
-                  <e p="_grid.scss" t="Include" />
-                  <e p="_hover.scss" t="Include" />
-                  <e p="_image.scss" t="Include" />
-                  <e p="_list-group.scss" t="Include" />
-                  <e p="_lists.scss" t="Include" />
-                  <e p="_nav-divider.scss" t="Include" />
-                  <e p="_pagination.scss" t="Include" />
-                  <e p="_reset-text.scss" t="Include" />
-                  <e p="_resize.scss" t="Include" />
-                  <e p="_screen-reader.scss" t="Include" />
-                  <e p="_size.scss" t="Include" />
-                  <e p="_table-row.scss" t="Include" />
-                  <e p="_text-emphasis.scss" t="Include" />
-                  <e p="_text-hide.scss" t="Include" />
-                  <e p="_text-truncate.scss" t="Include" />
-                  <e p="_transition.scss" t="Include" />
-                  <e p="_visibility.scss" t="Include" />
-                </e>
-                <e p="utilities" t="Include">
-                  <e p="_align.scss" t="Include" />
-                  <e p="_background.scss" t="Include" />
-                  <e p="_borders.scss" t="Include" />
-                  <e p="_clearfix.scss" t="Include" />
-                  <e p="_display.scss" t="Include" />
-                  <e p="_embed.scss" t="Include" />
-                  <e p="_flex.scss" t="Include" />
-                  <e p="_float.scss" t="Include" />
-                  <e p="_interactions.scss" t="Include" />
-                  <e p="_overflow.scss" t="Include" />
-                  <e p="_position.scss" t="Include" />
-                  <e p="_screenreaders.scss" t="Include" />
-                  <e p="_shadows.scss" t="Include" />
-                  <e p="_sizing.scss" t="Include" />
-                  <e p="_spacing.scss" t="Include" />
-                  <e p="_stretched-link.scss" t="Include" />
-                  <e p="_text.scss" t="Include" />
-                  <e p="_visibility.scss" t="Include" />
-                </e>
-                <e p="vendor" t="Include">
-                  <e p="_rfs.scss" t="Include" />
-                </e>
-              </e>
+              <e p="css" t="Include" />
             </e>
           </e>
         </e>
